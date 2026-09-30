@@ -1,16 +1,20 @@
 # 🖼️ Processamento Digital de Imagens — Trabalho AV1
 
-Este repositório contém três atividades práticas de **Processamento Digital de Imagens** utilizando **OpenCV** e **Matplotlib**. O objetivo é demonstrar operações fundamentais como visualização, conversão de espaço de cores, redimensionamento e composição de canais RGB.
+Este repositório contém três atividades práticas de **Processamento Digital de Imagens** utilizando **OpenCV** e **Matplotlib**. O objetivo é demonstrar operações fundamentais como visualização, conversão de espaço de cores, redimensionamento, composição de canais RGB e aplicação de filtros de suavização.
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-- 📄 `q1.py` — Exibição de imagem
-- 📄 `q2.py` — Conversão para escala de cinza
-- 📄 `q3.py` — Separação e recomposição de canais RGB
+- 📂 av1/ — Primeiro Trabalho
+    - 📄 `q1.py` — Exibição de imagem
+    - 📄 `q2.py` — Conversão para escala de cinza
+    - 📄 `q3.py` — Separação e recomposição de canais RGB
+- 📂 av2/ — Segundo Trabalho
+    - 📄 `q1.py` — Aplicação e comparação de filtros de suavização (Blur, Gaussiano e Mediana)
 - 📂 `images/` — Imagens utilizadas nas atividades
 - 📄 `split_rgb_channels.py` — Script para separar os canais RGB de uma imagem e salvar separadamente
+- 📄 requirements.txt — Lista de dependências do projeto
 
 ---
 
@@ -29,13 +33,16 @@ Você pode executar cada questão individualmente via terminal:
 
 ```Bash
 # Questão 1
-python q1.py
+python av1/q1.py
 
 # Questão 2
-python q2.py
+python av1/q2.py
 
 # Questão 3
-python q3.py
+python av1/q3.py
+
+# Questão AV2
+python av2/q1.py
 ```
 
 ## ✨ Extras
