@@ -1,4 +1,4 @@
-# 🖼️ Processamento Digital de Imagens — Trabalho AV1
+# 🖼️ Processamento Digital de Imagens
 
 Este repositório contém três atividades práticas de **Processamento Digital de Imagens** utilizando **OpenCV** e **Matplotlib**. O objetivo é demonstrar operações fundamentais como visualização, conversão de espaço de cores, redimensionamento, composição de canais RGB e aplicação de filtros de suavização.
 
