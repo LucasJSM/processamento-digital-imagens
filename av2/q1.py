@@ -1,9 +1,9 @@
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-def show_image():
+def process_image(img_path):
     # Lendo a imagem
-    img = cv.imread("./images/Lena.jpg")
+    img = cv.imread(img_path)
 
     # Imagem 1: Convertendo para a escala de cinza
     img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
@@ -17,7 +17,11 @@ def show_image():
     # Imagem 4: Aplicando filtro de Mediana
     img_mediana = cv.medianBlur(img_gray, 5)
 
-    # Exibindo as imagens
+    return img_gray, img_blur, img_gaussiano, img_mediana
+
+def show_image():
+    img_gray, img_blur, img_gaussiano, img_mediana = process_image("./images/Lena.jpg")
+
     plt.subplot(2, 2, 1)
     plt.imshow(img_gray, cmap='gray')
     plt.title('Escala de Cinza')
